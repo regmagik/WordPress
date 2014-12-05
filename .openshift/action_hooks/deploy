@@ -102,4 +102,5 @@ else
 fi
 
 echo "Copying key folder"
-cp -rf $OPENSHIFT_REPO_DIR/.openshift/www/key/* $OPENSHIFT_REPO_DIR/php/key/ 
+if [ ! -d "$OPENSHIFT_MYSQL_DB_HOST" ]
+cp -rf $OPENSHIFT_REPO_DIR/.openshift/www/key $OPENSHIFT_REPO_DIR/php/
