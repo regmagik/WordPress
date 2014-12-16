@@ -101,5 +101,5 @@ else
     echo "Database already configured."
 fi
 
-echo "Copying key folder"
-cp -rf $OPENSHIFT_REPO_DIR/.openshift/www/key $OPENSHIFT_REPO_DIR/php
+echo "Copying additional files and folders to the root"
+cp -rf $OPENSHIFT_REPO_DIR/.openshift/www/* $OPENSHIFT_REPO_DIR/php
