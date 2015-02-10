@@ -1,0 +1,19 @@
+﻿body {
+background-color:#FFFFFF;
+font:normal 12px Tahoma;
+}
+h1,h2,h3,h4{ clear:both;}
+
+div.button { border:1px solid white;
+float:left;width:100px;margin:.1em .5em;	
+}
+
+.linkbutton {border:1px solid #6666ff; display:block;text-align:center;
+font:bold 12px Arial,Helvetica,sans-serif;color:#092076;text-decoration:none;
+}
+
+
+img
+{
+border: none;
+}
