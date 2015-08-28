@@ -13,7 +13,7 @@
     <State_Province>GA</State_Province>
     <Zip_Postal_Code>30096</Zip_Postal_Code>
     <Country>USA</Country>
-    <Company_WebSite_URL>http://regmagik.com/consulting/</Company_WebSite_URL>
+    <Company_WebSite_URL>http://www.regmagik.com/</Company_WebSite_URL>
     <Contact_Info>
       <Author_First_Name>Boris</Author_First_Name>
       <Author_Last_Name>Guzner</Author_Last_Name>
@@ -86,15 +86,15 @@
   </Program_Descriptions>
   <Web_Info>
     <Application_URLs>
-      <Application_Info_URL>http://regmagik.com/</Application_Info_URL>
-      <Application_Order_URL>http://regmagik.com/readme.htm</Application_Order_URL>
-      <Application_Screenshot_URL>http://regmagik.com/regmagik.gif</Application_Screenshot_URL>
-      <Application_Icon_URL>http://regmagik.com/regmagik32t.gif</Application_Icon_URL>
-      <Application_XML_File_URL>http://regmagik.com/regmagik.xml</Application_XML_File_URL>
+      <Application_Info_URL>http://www.regmagik.com/</Application_Info_URL>
+      <Application_Order_URL>http://www.regmagik.com/readme.htm</Application_Order_URL>
+      <Application_Screenshot_URL>http://www.regmagik.com/regmagik.gif</Application_Screenshot_URL>
+      <Application_Icon_URL>http://www.regmagik.com/regmagik32t.gif</Application_Icon_URL>
+      <Application_XML_File_URL>http://www.regmagik.com/regmagik.xml</Application_XML_File_URL>
     </Application_URLs>
     <Download_URLs>
-      <Primary_Download_URL>http://regmagik.com/regmagik.setup.zip</Primary_Download_URL>
-      <Secondary_Download_URL>http://regmagik.com/regmagik.zip</Secondary_Download_URL>
+      <Primary_Download_URL>http://www.regmagik.com/regmagik.setup.zip</Primary_Download_URL>
+      <Secondary_Download_URL>http://www.regmagik.com/regmagik.zip</Secondary_Download_URL>
       <Additional_Download_URL_1/>
       <Additional_Download_URL_2/>
     </Download_URLs>
