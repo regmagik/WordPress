@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: kbdll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Zuna\LOCALS~1\Temp\RSPE63.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /D "_USRDLL" /D "KBDLL_EXPORTS" /Fp"c:\builds\hookdll\Release/kbdll.pch" /Yu"stdafx.h" /Fo"c:\builds\hookdll\Release/" /Fd"c:\builds\hookdll\Release/" /FD /c 
+"D:\bg\src\cpp\hook\kbdmon\hookdll\kbdll.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Zuna\LOCALS~1\Temp\RSPE63.tmp" 
+Creating temporary file "C:\DOCUME~1\Zuna\LOCALS~1\Temp\RSPE64.tmp" with contents
+[
+shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"c:\builds\hookdll\Release/kbdll.pdb" /machine:I386 /out:"c:\builds\kbdll.dll" /implib:"c:\builds\hookdll\Release/kbdll.lib" 
+c:\builds\hookdll\Release\kbdll.obj
+c:\builds\hookdll\Release\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Zuna\LOCALS~1\Temp\RSPE64.tmp"
+<h3>Output Window</h3>
+Compiling...
+kbdll.cpp
+Linking...
+   Creating library c:\builds\hookdll\Release/kbdll.lib and object c:\builds\hookdll\Release/kbdll.exp
+<h3>
+--------------------Configuration: Pimp - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Zuna\LOCALS~1\Temp\RSPE68.tmp" with contents
+[
+libctiny.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"c:\builds\Pimp\Release/searchcut.pdb" /machine:I386 /out:"c:\builds\searchcut.exe" 
+c:\builds\Pimp\Release\Pimp.obj
+c:\builds\Pimp\Release\StdAfx.obj
+c:\builds\Pimp\Release\SystemTraySDK.obj
+c:\builds\Pimp\Release\Pimp.res
+c:\builds\hookdll\Release\kbdll.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Zuna\LOCALS~1\Temp\RSPE68.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : warning LNK4089: all references to "MSVCRT.dll" discarded by /OPT:REF
+Creating temporary file "C:\DOCUME~1\Zuna\LOCALS~1\Temp\RSPE6A.bat" with contents
+[
+@echo off
+upx c:\builds\searchcut.exe
+]
+Creating command line "C:\DOCUME~1\Zuna\LOCALS~1\Temp\RSPE6A.bat"
+Pack with Upx
+                     Ultimate Packer for eXecutables
+   Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004
+UPX 1.25w        Markus F.X.J. Oberhumer & Laszlo Molnar        Jun 29th 2004
+
+        File size         Ratio      Format      Name
+   --------------------   ------   -----------   -----------
+     10752 ->      7680   71.43%    win32/pe     searchcut.exe
+
+Packed 1 file.
+
+
+
+<h3>Results</h3>
+searchcut.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
