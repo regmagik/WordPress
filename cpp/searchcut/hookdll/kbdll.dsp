@@ -55,6 +55,11 @@ LINK32=link.exe
 # ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /machine:I386
 # ADD LINK32 shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /machine:I386 /out:"c:\builds\kbdll.dll"
 # SUBTRACT LINK32 /nodefaultlib
+# Begin Special Build Tool
+TargetPath=\builds\kbdll.dll
+SOURCE="$(InputPath)"
+PostBuild_Cmds=7za a searchcut.zip $(TargetPath)
+# End Special Build Tool
 
 !ELSEIF  "$(CFG)" == "kbdll - Win32 Debug"
 

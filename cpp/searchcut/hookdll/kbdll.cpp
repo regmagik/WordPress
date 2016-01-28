@@ -97,9 +97,10 @@ void ShellExecuteOrReportError(LPCTSTR verb, LPCTSTR szURL)
 #pragma data_seg(".shared") 
 HHOOK g_ThisHook = NULL;
 DWORD dwTick = 0;
+#pragma data_seg() 
+
 TCHAR szRequest[MAX_REQUEST];
 TCHAR szLastRequest[MAX_REQUEST];
-#pragma data_seg() 
 
 #pragma comment(linker, "/SECTION:.shared,RWS") 
 //LPCTSTR SearchUrl = _T("http://www.google.com/cse?cx=partner-pub-0252080858300003:7317513899&q=");
@@ -320,11 +321,11 @@ KBDLL_API LRESULT KbdPrc(int nCode, WPARAM wParam, LPARAM lParam)
 { 
     if (nCode == HC_ACTION)
 	{
-		SHORT bControl = HIBYTE(GetKeyState(VK_CONTROL));	// if control was pressed
-//		if(bControl) MessageBoxA(NULL, "bControl", "KbdPrc", MB_OK);
-		bool bInsert = (wParam == VK_INSERT);
+		SHORT bControl = 0X8000 & GetKeyState(VK_CONTROL);	// if control was pressed
+		bool bInsert = wParam == VK_INSERT || wParam == 0x43;
 		if(bControl && bInsert)
 		{
+//			MessageBoxA(NULL, "bControl && bInsert", "KbdPrc", MB_OK);
 			bool bKeyUp = (lParam & KEY_WAS_DOWN_BIT) && (lParam & KEY_UP_BIT);
 			if(bKeyUp)
 			{
