@@ -23,9 +23,9 @@
       <Contact_Email>boris@regmagik.com</Contact_Email>
     </Contact_Info>
     <Support_Info>
-      <Sales_Email>boris@regmagik.com</Sales_Email>
-      <Support_Email>boris@regmagik.com</Support_Email>
-      <General_Email>boris@regmagik.com</General_Email>
+      <Sales_Email>sales@regmagik.com</Sales_Email>
+      <Support_Email>support@regmagik.com</Support_Email>
+      <General_Email>info@regmagik.com</General_Email>
       <Sales_Phone>(404) 514-7980</Sales_Phone>
       <Support_Phone>(404) 514-7980</Support_Phone>
       <General_Phone>(404) 514-7980</General_Phone>
@@ -75,7 +75,7 @@
   </Program_Info>
   <Program_Descriptions>
     <English>
-      <Keywords>registry,editor,regmagik,regmagic,regedit,regedt32</Keywords>
+      <Keywords>registry editor,regedit,regedt32,hkey,hkcu,hklm,hkcr,hkey_classes_root,RegCreateKeyEx,RegOpenKeyEx,RegEnumKeyEx,RegEnumValue,RegQueryValueEx,RegSetValueEx,RegQueryReflectionKey,wow6432node,wow3264node</Keywords>
       <Char_Desc_45>Advanced Registry Editor</Char_Desc_45>
       <Char_Desc_80>One click Registry shortcuts, quick search, remove invalid keys, speedup PC</Char_Desc_80>
       <Char_Desc_250>RegmagiK is advanced Windows Registry editor. Familiar regedit user interface with unique enhancements like integration with explorer, fast search, drag and drop, and address bar make it great power-tool.</Char_Desc_250>
@@ -88,7 +88,7 @@
     <Application_URLs>
       <Application_Info_URL>http://www.regmagik.com/</Application_Info_URL>
       <Application_Order_URL>http://www.regmagik.com/readme.htm</Application_Order_URL>
-      <Application_Screenshot_URL>http://www.regmagik.com/regmagik.gif</Application_Screenshot_URL>
+      <Application_Screenshot_URL>http://www.regmagik.com/img/regmagik.png</Application_Screenshot_URL>
       <Application_Icon_URL>http://www.regmagik.com/regmagik32t.gif</Application_Icon_URL>
       <Application_XML_File_URL>http://www.regmagik.com/regmagik.xml</Application_XML_File_URL>
     </Application_URLs>

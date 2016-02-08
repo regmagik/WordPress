@@ -36,10 +36,10 @@
 <Program_Info>
     
 <Program_Name>RegmagiK Registry Editor 32-bit</Program_Name>
-    <Program_Version>4.9.15.0</Program_Version>
-    <Program_Release_Month>8</Program_Release_Month>
-    <Program_Release_Day>23</Program_Release_Day>
-    <Program_Release_Year>2013</Program_Release_Year>
+    <Program_Version>4.9.16.0</Program_Version>
+    <Program_Release_Month>2</Program_Release_Month>
+    <Program_Release_Day>7</Program_Release_Day>
+    <Program_Release_Year>2016</Program_Release_Year>
     <Program_Cost_Dollars></Program_Cost_Dollars>
     <Program_Cost_Other_Code/>
     <Program_Cost_Other/>
@@ -62,8 +62,8 @@
       <Filename_Generic>regmagik32.exe</Filename_Generic>
       <Filename_Long>regmagik32.exe</Filename_Long>
       <File_Size_Bytes>799568</File_Size_Bytes>
-      <File_Size_K>775</File_Size_K>
-      <File_Size_MB>0.6</File_Size_MB>
+      <File_Size_K>1686</File_Size_K>
+      <File_Size_MB>1.5</File_Size_MB>
     </File_Info>
     <Expire_Info>
       <Has_Expire_Info>N</Has_Expire_Info>
@@ -77,7 +77,7 @@
   </Program_Info>
   <Program_Descriptions>
     <English>
-      <Keywords>registry,editor,regedit,regedt32</Keywords>
+      <Keywords>registry editor,regedit,regedt32,hkey,hkcu,hklm,hkcr,hkey_classes_root,RegCreateKeyEx,RegOpenKeyEx,RegEnumKeyEx,RegEnumValue,RegQueryValueEx,RegSetValueEx,RegQueryReflectionKey,wow6432node,wow3264node</Keywords>
       <Char_Desc_45>Utility to edit Windows Registry</Char_Desc_45>
       <Char_Desc_80>Registry Editor for experts.</Char_Desc_80>
       <Char_Desc_250>If you use regedit try unique enhancements like integration with Windows explorer, fast search, drag and drop, and address bar.</Char_Desc_250>
@@ -89,14 +89,14 @@
   <Web_Info>
     <Application_URLs>
       <Application_Info_URL>http://www.regmagik.com/</Application_Info_URL>
- <Application_Order_URL></Application_Order_URL>
-      <Application_Screenshot_URL>http://www.regmagik.com/regmagik.gif</Application_Screenshot_URL>
+      <Application_Order_URL>http://www.regmagik.com/readme.htm</Application_Order_URL>
+      <Application_Screenshot_URL>http://www.regmagik.com/img/regmagik.png</Application_Screenshot_URL>
       <Application_Icon_URL>http://www.regmagik.com/regmagik32t.gif</Application_Icon_URL>
       <Application_XML_File_URL>http://www.regmagik.com/regmagik32.xml</Application_XML_File_URL>
     </Application_URLs>
     <Download_URLs>
       <Primary_Download_URL>http://www.regmagik.com/regmagik32.zip</Primary_Download_URL>
-<Secondary_Download_URL>http://www.regmagik.com/regmagik.zip</Secondary_Download_URL>
+<Secondary_Download_URL>http://www.regmagik.com/regmagik32.zip</Secondary_Download_URL>
       <Additional_Download_URL_1/>
       <Additional_Download_URL_2/>
     </Download_URLs>
