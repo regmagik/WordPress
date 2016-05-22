@@ -1,1 +1,6 @@
 .project
+*.suo
+*.plg
+*.aps
+*.ncb
+

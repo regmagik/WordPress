@@ -1,5 +1,5 @@
 function LastUpdate(){
-	document.write("<img src='GuznerConsultingS.gif'><FONT SIZE=-1>Updated on 2/10/2011</FONT><hr>");
+	document.write("<img src='GuznerConsultingS.gif'><FONT SIZE=-1>Updated on 1/23/2016</FONT><hr>");
 }
 
 function Header()
@@ -24,11 +24,9 @@ function Link2Page(pPath, pLabel, bUpdated)
 	document.write('</A>');
 }
 
-
 function More(pAddress){
 	Link2Page(pAddress, "More...");
 }
-
 
 function Email(pAddress){
 	document.write('<A href="mailto:'+pAddress+
@@ -36,18 +34,9 @@ function Email(pAddress){
 		pAddress+'</A>');
 }
 
-
 function ContactMe(sSubject){
-	sAddress='boris@regmagik.com';
-	document.write('<A href="mailto:' 
-	+ sAddress
-	+ '?Subject='
-	+ sSubject
-	+ '&amp;body=RegmagiK web address is: http://www.regmagik.com ">' 
-	+ sAddress
-	+ '</A><br>');
+	document.write('<A href="/contact/">Contact us</A><br>');
 }
-
 
 function SendMessage(pText, pTip, pSubject, pMessage) 
 {
@@ -68,8 +57,6 @@ function SendMessage(pText, pTip, pSubject, pMessage)
 defaultText="Tell a friend";
 defaultTip="e-mail friend(s)";
 
-
-
 function TellAFriend(pAddress, pTitle)
 {
 	if(pAddress==null)
@@ -82,7 +69,7 @@ function TellAFriend(pAddress, pTitle)
 
 function Copyright(){
 	document.write("<font size=-1><p><i>"+
-		"Copyright &copy; 1999-2011 <a href='mailto:boris@regmagik.com'>Boris Guzner</a>. All rights reserved."+
+		"Copyright &copy; 1999-2016 <a href='/contact/'>Boris Guzner</a>. All rights reserved."+
 		"</i></p></font>");
 }
 
