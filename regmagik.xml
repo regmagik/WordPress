@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>2.01</MASTER_PAD_VERSION>
+    <MASTER_PAD_EDITOR>PADGen</MASTER_PAD_EDITOR>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD</MASTER_PAD_INFO>
+  </MASTER_PAD_VERSION_INFO>
+  <Company_Info>
+    <Company_Name>Guzner Software</Company_Name>
+    <Address_1>2600 Davenport Park Dr.</Address_1>
+    <Address_2/>
+    <City_Town>Duluth</City_Town>
+    <State_Province>GA</State_Province>
+    <Zip_Postal_Code>30096</Zip_Postal_Code>
+    <Country>USA</Country>
+    <Company_WebSite_URL>http://www.regmagik.com/</Company_WebSite_URL>
+    <Contact_Info>
+      <Author_First_Name>Boris</Author_First_Name>
+      <Author_Last_Name>Guzner</Author_Last_Name>
+      <Author_Email>boris@regmagik.com</Author_Email>
+      <Contact_First_Name>Boris</Contact_First_Name>
+      <Contact_Last_Name>Guzner</Contact_Last_Name>
+      <Contact_Email>boris@regmagik.com</Contact_Email>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email>sales@regmagik.com</Sales_Email>
+      <Support_Email>support@regmagik.com</Support_Email>
+      <General_Email>info@regmagik.com</General_Email>
+      <Sales_Phone>(404) 514-7980</Sales_Phone>
+      <Support_Phone>(404) 514-7980</Support_Phone>
+      <General_Phone>(404) 514-7980</General_Phone>
+      <Fax_Phone/>
+    </Support_Info>
+  </Company_Info>
+  <Program_Info>
+    <Program_Name>RegmagiK Registry Editor 64-bit</Program_Name>
+    <Program_Version>4.9.16.0</Program_Version>
+    <Program_Release_Month>2</Program_Release_Month>
+    <Program_Release_Day>7</Program_Release_Day>
+    <Program_Release_Year>2016</Program_Release_Year>
+    <Program_Cost_Dollars>15.00</Program_Cost_Dollars>
+    <Program_Cost_Other_Code/>
+    <Program_Cost_Other/>
+    <Program_Type>Shareware</Program_Type>
+    <Program_Release_Status>New Release</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_OS_Support>Win95,Win98,WinME,WinNT 4.x,Win2000,WinXP,WinServer,WinVista,WinVista x64,Win7 x32,Win7 x64,Windows 8</Program_OS_Support>
+    <Program_Language>English,French,German,Russian</Program_Language>
+    <Program_Change_Info>Add support for REG_NONE data type. Display if the program is running as Administrator or with limited editing rights.</Program_Change_Info>
+    <Program_Specific_Category>Utilities</Program_Specific_Category>
+    <Program_Category_Class>System Utilities::Registry Tools</Program_Category_Class>
+    <Program_Categories>Registry tools, Registry editors</Program_Categories>
+    <Program_System_Requirements/>
+    <Includes_JAVA_VM>N</Includes_JAVA_VM>
+    <Includes_VB_Runtime>N</Includes_VB_Runtime>
+    <Includes_DirectX>N</Includes_DirectX>
+    <File_Info>
+      <Filename_Versioned>regmagik.exe</Filename_Versioned>
+      <Filename_Previous>regmagik.exe</Filename_Previous>
+      <Filename_Generic>regmagik.exe</Filename_Generic>
+      <Filename_Long>regmagik.exe</Filename_Long>
+      <File_Size_Bytes>2434568</File_Size_Bytes>
+      <File_Size_K>2366</File_Size_K>
+      <File_Size_MB>2</File_Size_MB>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>Y</Has_Expire_Info>
+      <Expire_Count>31</Expire_Count>
+      <Expire_Based_On>Days</Expire_Based_On>
+      <Expire_Other_Info/>
+      <Expire_Month/>
+      <Expire_Day/>
+      <Expire_Year/>
+    </Expire_Info>
+  </Program_Info>
+  <Program_Descriptions>
+    <English>
+      <Keywords>registry editor,regedit,regedt32,hkey,hkcu,hklm,hkcr,hkey_classes_root,RegCreateKeyEx,RegOpenKeyEx,RegEnumKeyEx,RegEnumValue,RegQueryValueEx,RegSetValueEx,RegQueryReflectionKey,wow6432node,wow3264node</Keywords>
+      <Char_Desc_45>Advanced Registry Editor</Char_Desc_45>
+      <Char_Desc_80>One click Registry shortcuts, quick search, remove invalid keys, speedup PC</Char_Desc_80>
+      <Char_Desc_250>RegmagiK is advanced Windows Registry editor. Familiar regedit user interface with unique enhancements like integration with explorer, fast search, drag and drop, and address bar make it great power-tool.</Char_Desc_250>
+      <Char_Desc_450>Create desktop or Quick Launch shortcut to Registry key or value: Drag-n-drop selected key or value. Search for all matches using flexible criteria. Find invalid keys. Export to .reg file. Go to registry path given as a string. Very convenient if you read instructions about doing something in registry. Just select registry path and copy it to clipboard. Then open RegmagiK and press Ctrl+G or use 'Go to Key' toolbar button.</Char_Desc_450>
+      <Char_Desc_2000>RegmagiK is advanced Windows Registry editor. Familiar regedit user interface with unique enhancements like fast search, drag-n-drop, autocomplete address bar, and integration with Windows Explorer make it great power user's tool. Create shortcuts to any Registry key or value on desktop - Drag-n-drop or cut and paste keys or values - Search for all matches - Export to .reg file - Go to registry path given as a string. Very convenient when you read instructions about doing something in registry. Just select registry path and copy it to clipboard. Then open RegmagiK and press 'Ctrl+G' or click on 'Go to Key' toolbar button - Bookmarks menu including existing Windows XP regedit Favorites - Remove invalid keys to speed up your PC - Add, change, delete keys and values of different types - Save and Load registry keys to/from Hives - Manage Security, edit registry key access permissions.
+</Char_Desc_2000>
+    </English>
+  </Program_Descriptions>
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>http://www.regmagik.com/</Application_Info_URL>
+      <Application_Order_URL>http://www.regmagik.com/readme.htm</Application_Order_URL>
+      <Application_Screenshot_URL>http://www.regmagik.com/img/regmagik.png</Application_Screenshot_URL>
+      <Application_Icon_URL>http://www.regmagik.com/regmagik32t.gif</Application_Icon_URL>
+      <Application_XML_File_URL>http://www.regmagik.com/regmagik.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>http://www.regmagik.com/regmagik64.zip</Primary_Download_URL>
+      <Secondary_Download_URL>http://www.regmagik.com/regmagik64.zip</Secondary_Download_URL>
+      <Additional_Download_URL_1/>
+      <Additional_Download_URL_2/>
+    </Download_URLs>
+  </Web_Info>
+  <Permissions>
+    <Distribution_Permissions/>
+    <EULA/>
+  </Permissions>
+</XML_DIZ_INFO>
