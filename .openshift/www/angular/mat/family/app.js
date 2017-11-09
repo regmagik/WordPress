@@ -13,7 +13,7 @@
     this.relatives = [ 
       {id:32,  relation:'Mom', name:'Kateryna', pictures:["p1", "p2"]},
       {id:22,  relation:'Dad', name:'Boris', pictures:["p3", "p4"]},
-      {id:12,  relation:'Sister', name: 'Sonia', pictures:["p5", "p6"]}
+      {id:12,  relation:'Sister', name: 'Sonia', pictures:["pic/Sonia.album.jpg", "p6"]}
     ];
   });
 })();
