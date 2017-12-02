@@ -4,7 +4,7 @@ echo ("Thank you for your interest in RegmagiK.");
 
 function Name2SN($name)
 {
-	$sn = 926300465;
+	$sn = getenv('KEYSECRET');
 	$len = mb_strlen($name);
 	for ($i = 0; $i < $len; $i++)
 	{
@@ -19,7 +19,7 @@ function Name2SN($name)
 }
 mb_internal_encoding("UTF-8");
 $name = $_GET["initals"] ." ". $_GET["name"] ." ". $_GET["email"];
-//$name = "Cédric GEORGEOT cgeorgeot@e-novatic.fr";
+//$name = "CÃ©dric GEORGEOT cgeorgeot@e-novatic.fr";
 echo $name. "<br>";
 
 $x = log(Name2SN($name));
