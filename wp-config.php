@@ -42,18 +42,17 @@ define('DB_COLLATE', '');
  *
  * Change these to different unique phrases!
  * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
- * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         ',Au97(Gp.PtX`F5@[(o+y:%R|^Pbu8Qo<buiz@~u4b7!@/8P5W&ITUPU[o]q#MY;');
-define('SECURE_AUTH_KEY',  '/D0 BSra&cpKepWhS)V}^Lf;$0]d}0x7!N5pno~X|&|PLX<kD?bosptz>kJ^M@tx');
-define('LOGGED_IN_KEY',    'O13w)3+I)dy}Iaj0D/_?JlpNtWF!!cbGs*A[Kw:Kxg.dRF!|lwu!^==<sbjKQj6g');
-define('NONCE_KEY',        '7A|w@N99ii5W#EFk3I#m8.8{Umg|uWjCP:sP`o(5:]#mUN%T{!;N6|PP+3v~9%]9');
-define('AUTH_SALT',        '!er[e )2s7=2VJ?RMW3L-<z%t8(bplG<QE2{fLM/_wy|.Xwx=w :snG:mn_gsi4]');
-define('SECURE_AUTH_SALT', 'nqG0=l`G0Q~xL859:_$,NSx_DU4Uv/N>Pjw5d,K|,|Q^ySn6p.^CAr<$M;PQ}8}Y');
-define('LOGGED_IN_SALT',   'e*c0U6ekT(z8t$>9jKy0R:~iu7HfqMu<w6eD<hkLEDn0-gmeWfUJAzv5!!s#P#N&');
-define('NONCE_SALT',       '@*Qn~Z%u8Y#yd:TA*unq8GErf:mef%;^k}7/),*k2H_6S3@d<)D^:AX:cF0K]d86');
+define('AUTH_KEY',         '(VcDLF-K_5F!<8T@?[6]&{C8+`PJ&Mh u7K(iBh284he[PqQU@i;yc-uFmSEr)1s');
+define('SECURE_AUTH_KEY',  ' MMDs1l)lif.|K,.Ubn@xe386c&-<T+/>%$ZSq Bc:<n!7g_9K<hG6|tFo}iM]R-');
+define('LOGGED_IN_KEY',    'Y?cJlbN]#sZXN|/M|Q[wHe^h+v9|)rKSwnq@_3aPX?zZ`7}l&*1Vx<;#(N]9CIqH');
+define('NONCE_KEY',        '0I7b:&ad|UioObsT2X^M&HLR]f>-0[r+},iJh>(W`?{RQd[Y]cg6Z+$w*U+=|NU/');
+define('AUTH_SALT',        'MS+Fk@6HI}s;$V72:*#O$YkrwUjx/LVi1?lWxNNyZb1T.[Ig=1X?v*I)%5v0U)7[');
+define('SECURE_AUTH_SALT', 'bWq%ZMF$~fSWIm;]-r9g4nVU#s-Oabgh76Osh(5+G_h]lNT}Lt5[C.vh;+QNeX`6');
+define('LOGGED_IN_SALT',   'W;etaOqOHbtn2`FQrJV R! }a`};mIQVW(MJ/KD9C~#tcF.<oir:-7t=OH&qg`Bh');
+define('NONCE_SALT',       '(f#OUjUWYq+2-3H`W)i,:7? ;__5G*QX$||z#@1mP1Kp)4Ym?7TR5w-D#w0y~cJ+');
 
 /**#@-*/
 
