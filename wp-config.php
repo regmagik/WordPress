@@ -1,12 +1,6 @@
 <?php
 /**
- * The base configuration for WordPress
- *
- * The wp-config.php creation script uses this file during the
- * installation. You don't have to use the web site, you can
- * copy this file to "wp-config.php" and fill in the values.
- *
- * This file contains the following configurations:
+ * The wp-config.php contains the following configurations:
  *
  * * MySQL settings
  * * Secret keys
@@ -23,13 +17,13 @@
 define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'me');
+define('DB_USER', getenv('BORIS'));
 
 /** MySQL database password */
-define('DB_PASSWORD', 'justword');
+define('DB_PASSWORD', getenv('BORISECRET'));
 
 /** MySQL hostname */
-define('DB_HOST', 'mysql.regmagik.svc');
+define('DB_HOST', getenv('BORISQLSERVER'));
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
