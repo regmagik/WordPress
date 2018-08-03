@@ -1,5 +1,5 @@
 function LastUpdate(){
-	document.write("<img src='GuznerConsultingS.gif'><FONT SIZE=-1>Updated on 11/23/2017</FONT>");
+	document.write("<img src='GuznerConsultingS.gif'><FONT SIZE=-1>Updated on 8/2/2018</FONT>");
 }
 
 function Header()
@@ -69,7 +69,7 @@ function TellAFriend(pAddress, pTitle)
 
 function Copyright(){
 	document.write("<font size=-1><p><i>"+
-		"Copyright &copy; 1999-2017 <a href='/contact/'>Boris Guzner</a>. All rights reserved."+
+		"Copyright &copy; 1999-2018 <a href='/contact/'>Boris Guzner</a>. All rights reserved."+
 		"</i></p></font>");
 }
 
