@@ -1,4 +1,4 @@
-tRegmagiK on WordPress and OpenShift
+RegmagiK on WordPress and OpenShift
 ======================================
 
 This git repository is based on a WordPress package configured for deployment to OpenShift.  It has been further customized
