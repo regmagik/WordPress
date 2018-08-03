@@ -1,8 +1,10 @@
-WordPress on OpenShift
-======================
+RegmagiK on WordPress and OpenShift
+======================================
 
-This git repository helps you get up and running quickly w/ a WordPress installation
-on OpenShift.  The backend database is MySQL and the database name is the
+This git repository is based on a WordPress package configured for deployment to OpenShift.  It has been further customized
+to serve as RegmagiK downloads web site.
+
+The backend database is MySQL and the database name is the
 same as your application name (using getenv('OPENSHIFT_APP_NAME')).  You can name
 your application whatever you want.  However, the name of the database will always
 match the application so you might have to update .openshift/action_hooks/build.
