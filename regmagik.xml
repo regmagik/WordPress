@@ -34,19 +34,22 @@
   </Company_Info>
   <Program_Info>
     <Program_Name>RegmagiK Registry Editor 64-bit</Program_Name>
-    <Program_Version>4.9.16.0</Program_Version>
-    <Program_Release_Month>2</Program_Release_Month>
-    <Program_Release_Day>7</Program_Release_Day>
-    <Program_Release_Year>2016</Program_Release_Year>
+    <Program_Version>4.10.1.3</Program_Version>
+    <Program_Release_Month>8</Program_Release_Month>
+    <Program_Release_Day>3</Program_Release_Day>
+    <Program_Release_Year>2018</Program_Release_Year>
     <Program_Cost_Dollars>15.00</Program_Cost_Dollars>
     <Program_Cost_Other_Code/>
     <Program_Cost_Other/>
     <Program_Type>Shareware</Program_Type>
     <Program_Release_Status>New Release</Program_Release_Status>
     <Program_Install_Support>Install and Uninstall</Program_Install_Support>
-    <Program_OS_Support>Win95,Win98,WinME,WinNT 4.x,Win2000,WinXP,WinServer,WinVista,WinVista x64,Win7 x32,Win7 x64,Windows 8</Program_OS_Support>
+    <Program_OS_Support>Win95,Win98,WinME,WinNT 4.x,Win2000,WinXP,WinServer,WinVista,WinVista x64,Win7 x32,Win7 x64,Windows 8,Windows 10</Program_OS_Support>
     <Program_Language>English,French,German,Russian</Program_Language>
-    <Program_Change_Info>Add support for REG_NONE data type. Display if the program is running as Administrator or with limited editing rights.</Program_Change_Info>
+    
+    <Program_Change_Info>Upgrade build tools to Visual Studio 2017. Resolve error messages like the application failed to start because some .dll is missing. 
+    </Program_Change_Info>
+    
     <Program_Specific_Category>Utilities</Program_Specific_Category>
     <Program_Category_Class>System Utilities::Registry Tools</Program_Category_Class>
     <Program_Categories>Registry tools, Registry editors</Program_Categories>
@@ -59,9 +62,14 @@
       <Filename_Previous>regmagik.exe</Filename_Previous>
       <Filename_Generic>regmagik.exe</Filename_Generic>
       <Filename_Long>regmagik.exe</Filename_Long>
-      <File_Size_Bytes>2434568</File_Size_Bytes>
-      <File_Size_K>2366</File_Size_K>
-      <File_Size_MB>2</File_Size_MB>
+      
+      <File_Size_Bytes>1775714
+      </File_Size_Bytes>
+      <File_Size_K>1548
+      </File_Size_K>
+      <File_Size_MB>1.69
+      </File_Size_MB>
+      
     </File_Info>
     <Expire_Info>
       <Has_Expire_Info>Y</Has_Expire_Info>
@@ -93,8 +101,8 @@
       <Application_XML_File_URL>http://www.regmagik.com/regmagik.xml</Application_XML_File_URL>
     </Application_URLs>
     <Download_URLs>
-      <Primary_Download_URL>http://www.regmagik.com/regmagik64.zip</Primary_Download_URL>
-      <Secondary_Download_URL>http://www.regmagik.com/regmagik64.zip</Secondary_Download_URL>
+      <Primary_Download_URL>http://www.regmagik.com/RegmagiK.x64.English.zip</Primary_Download_URL>
+      <Secondary_Download_URL>https://github.com/regmagik/public/raw/master/RegmagiK.x64.English.zip</Secondary_Download_URL>
       <Additional_Download_URL_1/>
       <Additional_Download_URL_2/>
     </Download_URLs>
