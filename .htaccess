@@ -7,6 +7,8 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
+Redirect 301 /regmagik.zip /RegmagiK.x86.English.zip
+Redirect 301 /downloads /download
 </IfModule>
 
 # END WordPress
