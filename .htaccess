@@ -8,7 +8,9 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 Redirect 301 /regmagik.zip /RegmagiK.x64.English.zip
+Redirect 301 /regmagik.setup.zip /RegmagiK.x64.English.zip
 Redirect 301 /regmagik64.zip /RegmagiK.x64.English.zip
+Redirect 301 /regmagik.exe /RegmagiK.x64.English.zip
 Redirect 301 /regmagik32.zip /RegmagiK.Win32.English.zip
 Redirect 301 /RegmagiK.x86.English.zip /RegmagiK.Win32.English.zip
 Redirect 301 /contact /contact.htm
