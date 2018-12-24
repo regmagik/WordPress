@@ -1,8 +1,7 @@
 <?php
 
-echo ("Thank you for visiting RegmagiK."); 
+echo ($_GET["name"] ." ". "Thank you for trying RegmagiK."); 
 
-echo ("<br>Before Name2SN..."); 
 function Name2SN($name)
 {
 echo ("Inside Name2SN()..."); 
@@ -20,8 +19,8 @@ echo ("Inside Name2SN()...");
 	}
 	return $sn;
 }
-echo ("mb_internal_encoding. UTF-8..."); 
 mb_internal_encoding("UTF-8");
+echo ("...mb_internal_encoding. UTF-8."); 
 $name = $_GET["initals"] ." ". $_GET["name"] ." ". $_GET["email"];
 //$name = "Cédric GEORGEOT cgeorgeot@e-novatic.fr";
 echo $name. "<br>";
