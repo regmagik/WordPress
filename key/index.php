@@ -12,8 +12,9 @@ function Name2SN($name)
 	  $letter = mb_substr($name, $i, 1);
 //	  echo($i . ":" . $letter);
 	  if($letter == " ") continue;
-	  $value = mb_convert_encoding($letter, 'UTF-16');
-	  $b = ord($value[1])&0xff;
+//	  $value = mb_convert_encoding($letter, 'UTF-16');
+//	  $b = ord($value[1])&0xff;
+	  $b = ord($letter)&0xff;
 //    echo $b . " " . $letter."<br>";
 	  $sn += (int)($sn/$b); 
 	}
