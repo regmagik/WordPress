@@ -1,18 +1,15 @@
 <?php
 
-echo ($_GET["name"] ." ". "Thank you for trying RegmagiK."); 
+echo ("Thank you for trying RegmagiK.<hr>"); 
 
 function Name2SN($name)
 {
-echo ("Inside Name2SN()..."); 
 	$sn = getenv('KEYSECRET');
-	  echo($sn . "<br>");
 	$len = mb_strlen($name);
 	  echo($len . "<br>");
 	for ($i = 0; $i < $len; $i++)
 	{
 	  $letter = mb_substr($name, $i, 1);
-	  echo($i . ":" . $letter);
 	  if($letter == " ") continue;
 //	  $value = mb_convert_encoding($letter, 'UTF-16');
 //	  $b = ord($value[1])&0xff;
