@@ -12,7 +12,7 @@ Running on Heroku
 
 To setup your own instance, you need an account Heroku. Create a project with two components: PHP and mySQL. 
 
-Note: You may not be able to upload plugins and themes via WordPress built-in features if you choose the free OpenShift plan.  If you would like to add custom plugins or themes, download them, then check them directly into php/wp-content/themes, php/wp-content/plugins directories, push changes into the repo and initiate the build in OpenShift or use webhooks to have the build start automatically.
+Note: You may not be able to upload plugins and themes via WordPress built-in features if you choose the free OpenShift plan.  If you would like to add custom plugins or themes, download them, then check them directly into php/wp-content/themes, php/wp-content/plugins directories.
 
 Security Considerations
 -----------------------
