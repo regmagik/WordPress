@@ -19,7 +19,7 @@ Redirect 301 /regmagik64.zip /RegmagiK.x64.English.zip
 Redirect 301 /regmagik.exe /RegmagiK.x64.English.zip
 Redirect 301 /regmagik32.zip /RegmagiK.Win32.English.zip
 Redirect 301 /RegmagiK.x86.English.zip /RegmagiK.Win32.English.zip
-Redirect 301 /contact(/|$) /contact.htm
+Redirect 301 /contact(\/|$) /contact.htm
 Redirect 301 /downloads /download
 Redirect 301 /downloads/ /download
 Redirect 301 /downloads/download.html /download.htm
