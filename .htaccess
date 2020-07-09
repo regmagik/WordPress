@@ -7,23 +7,23 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
-Redirect 301 /regmagik.zip /RegmagiK.x64.English.zip 
-Redirect 301 /regmagik32.french.zip /RegmagiK.Win32.French.zip
-Redirect 301 /regmagik32.german.zip /RegmagiK.Win32.German.zip
-Redirect 301 /regmagik32.russian.zip /RegmagiK.Win32.Russian.zip 
-Redirect 301 /regmagik64.french.zip /RegmagiK.x64.French.zip
-Redirect 301 /regmagik64.german.zip /RegmagiK.x64.German.zip
-Redirect 301 /regmagik64.russian.zip /RegmagiK.x64.Russian.zip
-Redirect 301 /regmagik.setup.zip /RegmagiK.x64.English.zip
-Redirect 301 /regmagik64.zip /RegmagiK.x64.English.zip
-Redirect 301 /regmagik.exe /RegmagiK.x64.English.zip 
+Redirect 301 /regmagik.zip /RegmagiK.x64.English.zip [NC, L]
+Redirect 301 /regmagik32.french.zip /RegmagiK.Win32.French.zip [NC, L]
+Redirect 301 /regmagik32.german.zip /RegmagiK.Win32.German.zip [NC, L]
+Redirect 301 /regmagik32.russian.zip /RegmagiK.Win32.Russian.zip [NC, L] 
+Redirect 301 /regmagik64.french.zip /RegmagiK.x64.French.zip [NC, L]
+Redirect 301 /regmagik64.german.zip /RegmagiK.x64.German.zip [NC, L]
+Redirect 301 /regmagik64.russian.zip /RegmagiK.x64.Russian.zip [NC, L]
+Redirect 301 /regmagik.setup.zip /RegmagiK.x64.English.zip [NC, L]
+Redirect 301 /regmagik64.zip /RegmagiK.x64.English.zip [NC, L]
+Redirect 301 /regmagik.exe /RegmagiK.x64.English.zip [NC, L]
 Redirect 301 /regmagik32.zip /RegmagiK.Win32.English.zip 
 Redirect 301 /RegmagiK.x86.English.zip /RegmagiK.Win32.English.zip 
-Redirect 301 /contact/ /contact.htm 
-Redirect 301 /contact.html /contact.htm
-Redirect 301 /contact /contact.htm 
-Redirect 301 /downloads /download
-Redirect 301 /downloads/ /download
-Redirect 301 /downloads/download.html /download.htm
+Redirect 301 /contact/ /contact.htm [NC, L]
+Redirect 301 /contact.html /contact.htm [NC, L]
+Redirect 301 /contact /contact.htm [NC, L] 
+Redirect 301 /downloads /download [NC, L]
+Redirect 301 /downloads/ /download [NC, L]
+Redirect 301 /downloads/download.html /download.htm [NC, L]
 </IfModule>
 # END WordPress
