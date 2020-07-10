@@ -7,17 +7,17 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
-RewriteRule /regmagik.zip /RegmagiK.x64.English.zip [NC, L]
-RewriteRule /regmagik32.french.zip /RegmagiK.Win32.French.zip [NC, L]
-RewriteRule /regmagik32.german.zip /RegmagiK.Win32.German.zip [NC, L]
-RewriteRule /regmagik32.russian.zip /RegmagiK.Win32.Russian.zip [NC, L] 
-RewriteRule /regmagik64.french.zip /RegmagiK.x64.French.zip [NC, L]
-RewriteRule /regmagik64.german.zip /RegmagiK.x64.German.zip [NC, L]
-RewriteRule /regmagik64.russian.zip /RegmagiK.x64.Russian.zip [NC, L]
-RewriteRule /regmagik.setup.zip /RegmagiK.x64.English.zip [NC, L]
-RewriteRule /regmagik64.zip /RegmagiK.x64.English.zip [NC, L]
-RewriteRule /regmagik32.zip /RegmagiK.Win32.English.zip [NC, L]
-RewriteRule /RegmagiK.x86.English.zip /RegmagiK.Win32.English.zip [NC, L]
+RewriteRule /regmagik.zip /RegmagiK.x64.English.zip [L]
+RewriteRule /regmagik32.french.zip /RegmagiK.Win32.French.zip [L]
+RewriteRule /regmagik32.german.zip /RegmagiK.Win32.German.zip [L]
+RewriteRule /regmagik32.russian.zip /RegmagiK.Win32.Russian.zip [L] 
+RewriteRule /regmagik64.french.zip /RegmagiK.x64.French.zip [L]
+RewriteRule /regmagik64.german.zip /RegmagiK.x64.German.zip [L]
+RewriteRule /regmagik64.russian.zip /RegmagiK.x64.Russian.zip [L]
+RewriteRule /regmagik.setup.zip /RegmagiK.x64.English.zip [L]
+RewriteRule /regmagik64.zip /RegmagiK.x64.English.zip [L]
+RewriteRule /regmagik32.zip /RegmagiK.Win32.English.zip [L]
+RewriteRule /RegmagiK.x86.English.zip /RegmagiK.Win32.English.zip [L]
 Redirect 301 /regmagik.exe /RegmagiK.x64.English.zip 
 Redirect 301 /contact/ /contact.htm
 Redirect 301 /contact.html /contact.htm
