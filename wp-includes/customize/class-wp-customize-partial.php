@@ -97,10 +97,11 @@ class WP_Customize_Partial {
 	 * Render callback.
 	 *
 	 * @since 4.5.0
+	 *
 	 * @see WP_Customize_Partial::render()
 	 * @var callable Callback is called with one argument, the instance of
-	 *                 WP_Customize_Partial. The callback can either echo the
-	 *                 partial or return the partial as a string, or return false if error.
+	 *               WP_Customize_Partial. The callback can either echo the
+	 *               partial or return the partial as a string, or return false if error.
 	 */
 	public $render_callback;
 
@@ -159,7 +160,7 @@ class WP_Customize_Partial {
 		// Process settings.
 		if ( ! isset( $this->settings ) ) {
 			$this->settings = array( $id );
-		} else if ( is_string( $this->settings ) ) {
+		} elseif ( is_string( $this->settings ) ) {
 			$this->settings = array( $this->settings );
 		}
 
@@ -201,7 +202,7 @@ class WP_Customize_Partial {
 		if ( ! empty( $this->render_callback ) ) {
 			ob_start();
 			$return_render = call_user_func( $this->render_callback, $this, $container_context );
-			$ob_render = ob_get_clean();
+			$ob_render     = ob_get_clean();
 
 			if ( null !== $return_render && '' !== $ob_render ) {
 				_doing_it_wrong( __FUNCTION__, __( 'Partial render must echo the content or return the content string (or array), but not both.' ), '4.5.0' );
