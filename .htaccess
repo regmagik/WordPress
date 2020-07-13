@@ -18,12 +18,12 @@ RewriteRule /regmagik.setup.zip /RegmagiK.x64.English.zip [L]
 RewriteRule /regmagik64.zip /RegmagiK.x64.English.zip [L]
 RewriteRule /regmagik32.zip /RegmagiK.Win32.English.zip [L]
 RewriteRule /RegmagiK.x86.English.zip /RegmagiK.Win32.English.zip [L]
-Redirect 301 /regmagik.exe /RegmagiK.x64.English.zip 
-Redirect 301 /contact/ /contact.htm
-Redirect 301 /contact.html /contact.htm
-Redirect 301 /contact /contact.htm 
+RewriteRule /contact.html /contact.htm [L]
+RewriteRule /contact /contact.htm [L]
+RewriteRule /contact/ /contact.htm [L]
 Redirect 301 /downloads /download
 Redirect 301 /downloads/ /download
 Redirect 301 /downloads/download.html /download.htm
+Redirect 301 /regmagik.exe /RegmagiK.x64.English.zip
 </IfModule>
 # END WordPress
