@@ -1,7 +1,5 @@
 <?php
 
-//echo ("Thank you for trying RegmagiK.<hr>"); 
-
 function Name2SN($name)
 {
 	$sn = getenv('KEYSECRET');
@@ -33,7 +31,8 @@ $hex = bin2hex($binarydata);
 
 if($name == "  ") 
 {
-echo " <ul>
+	echo ("Thank you for trying RegmagiK.<hr>"); 
+	echo " <ul>
 <li><a href=\"/\" >Home.</a>
 <li><a href=\"/readme.htm\" >Order license.</a>
 </ul>";
