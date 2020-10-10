@@ -1,12 +1,12 @@
 <?php
 
-echo ("Thank you for trying RegmagiK.<hr>"); 
+//echo ("Thank you for trying RegmagiK.<hr>"); 
 
 function Name2SN($name)
 {
 	$sn = getenv('KEYSECRET');
 	$len = mb_strlen($name);
-	  echo($len . "<br>");
+//	  echo($len . "<br>");
 	for ($i = 0; $i < $len; $i++)
 	{
 	  $letter = mb_substr($name, $i, 1);
@@ -23,7 +23,7 @@ function Name2SN($name)
 //echo ("...mb_internal_encoding. UTF-8."); 
 $name = $_GET["initals"] ." ". $_GET["name"] ." ". $_GET["email"];
 //$name = "Cédric GEORGEOT cgeorgeot@e-novatic.fr";
-echo $name. "<br>";
+//echo $name. "<br>";
 
 $x = log(Name2SN($name));
 
