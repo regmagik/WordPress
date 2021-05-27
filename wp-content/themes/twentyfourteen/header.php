@@ -28,6 +28,9 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+
+	<script data-ad-client="ca-pub-0252080858300003" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 </head>
 
 <body <?php body_class(); ?>>
