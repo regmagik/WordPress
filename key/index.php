@@ -3,11 +3,11 @@
 function Name2SN($name)
 {
 	$sn = getenv('KEYSECRET');
-	$len = mb_strlen($name);
+	$len = strlen($name);
 //	  echo($len . "<br>");
 	for ($i = 0; $i < $len; $i++)
 	{
-	  $letter = mb_substr($name, $i, 1);
+	  $letter = substr($name, $i, 1);
 	  if($letter == " ") continue;
 //	  $value = mb_convert_encoding($letter, 'UTF-16');
 //	  $b = ord($value[1])&0xff;
